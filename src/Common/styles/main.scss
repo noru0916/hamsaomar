@@ -1,3 +1,8 @@
+/* import components styles */
+@import "../../pages/HomePage/Header/styles.header.scss";
+@import "../../pages/HomePage/Footer/styles.module.scss";
+@import "../../pages/HomePage/Landing/styles.landing.scss";
+
 /* Box sizing rules */
 *,
 *::before,
@@ -56,6 +61,29 @@ textarea,
 select {
   font: inherit;
 }
+
+
+/*Main Container*/
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {

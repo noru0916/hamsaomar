@@ -4,7 +4,7 @@ import Logo from "@/public/assets/imgs/headerlogo.svg";
 import Mail from "@/public/assets/imgs/mail.svg";
 import Phone from "@/public/assets/imgs/phone.svg";
 
-const Footer: React.FC = () => {
+const LayoutFooter: React.FC = () => {
   return (
     <footer className={styles.container}>
       <div className={styles.content}>
@@ -56,4 +56,4 @@ const Footer: React.FC = () => {
   );
 };
 
-export default Footer;
+export default LayoutFooter;

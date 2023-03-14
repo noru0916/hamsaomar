@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "Satoshi-Medium";
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://fonts.animaapp.com/Satoshi-Medium") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Satoshi-Black";
+    font-style: normal;
+    font-weight: 900;
+    src: url("https://fonts.animaapp.com/Satoshi-Black") format("opentype");
+  }
+  
+  .navbar {
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0vw 0.14vw 0vw #0000000d;
+    display: flex;
+    gap: 8.89vw;
+    justify-content: center;
+    padding: 1.11vw 4.44vw;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .frame-230 {
+    align-items: center;
+    gap: 4.44vw;
+    width: fit-content;
+  }
+  
+  .home-desktop .frame {
+    display: flex;
+    position: relative;
+  }
+  
+  .features {
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .pricing-1 {
+    width: fit-content;
+  }
+  
+  .home-desktop .pricing {
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+  }
+  
+  .frame-231 {
+    align-items: flex-start;
+    gap: 2.22vw;
+    width: fit-content;
+  }
+  
+  .button-3 {
+    background-color: var(--white);
+    border: 0.07vw solid;
+    border-color: var(--log-cabin);
+    height: 4.58vw;
+    margin-bottom: -0.07vw;
+    margin-left: -0.07vw;
+    margin-top: -0.07vw;
+    width: 9.03vw;
+  }
+  
+  .home-desktop .button {
+    align-items: center;
+    border-radius: 0.56vw;
+    display: flex;
+    gap: 0.69vw;
+    justify-content: center;
+    padding: 1.11vw;
+    position: relative;
+  }
+  
+  .sign-up {
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .button-4 {
+    background-color: var(--amber);
+    height: 4.44vw;
+    width: 8.89vw;
+  }
+  
+  .login {
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .frame-228 {
+    align-items: center;
+    flex-direction: column;
+    gap: 0.28vw;
+    width: fit-content;
+  }
+  
+  .demo {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.07vw;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .vector-97 {
+    height: 0.07vw;
+    margin-bottom: -0.03vw;
+    margin-left: -0.03vw;
+    margin-right: -0.03vw;
+    min-width: 3.96vw;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .menu {
+    flex: 1;
+    height: 1.88vw;
+    min-width: 6.67vw;
+    position: relative;
+  }
+  
+  .frame-249-1 {
+    align-items: center;
+    display: flex;
+    gap: 0.56vw;
+    position: relative;
+    width: 19.65vw;
+  }
+  
+  .group-1-1 {
+    height: 2.73vw;
+    min-width: 4.1vw;
+    position: relative;
+  }
+  
+  .ellipse-container-1 {
+    height: 2.71vw;
+    position: relative;
+    width: 4.1vw;
+  }
+  
+  .ellipse-1-1 {
+    background-color: var(--log-cabin);
+    border-radius: 1.37vw;
+    height: 2.71vw;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2.71vw;
+  }
+  
+  .ellipse-2-1 {
+    background-color: var(--amber);
+    border-radius: 1.37vw;
+    height: 2.71vw;
+    left: 1.39vw;
+    position: absolute;
+    top: 0;
+    width: 2.71vw;
+  }
+  
+  .client-rate-1 {
+    color: 
+  transparent;
+    flex: 1;
+    font-family: var(--font-family-satoshi-black);
+    font-size: 1.94vw;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.02vw;
+    position: relative;
+  }
+  
+  .span1-2 {
+    color: var(--amber);
+  }
+  
+  .span0-2 {
+    color: var(--log-cabin);
+  }
