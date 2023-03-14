@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   sassOptions: {
-    prependData: `@import "Common/styles/index.scss";`
+    // prependData: `@import Common/styles/index.scss;`
   }
 }
 
