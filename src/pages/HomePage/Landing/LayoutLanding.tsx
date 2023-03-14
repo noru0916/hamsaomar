@@ -1,9 +1,8 @@
-const LayoutHeader: React.FC = () => {
+const LayoutLanding: React.FC = () => {
     return (
-      <div>
-     </div>
+      <div></div>
     );
   };
   
-export default LayoutHeader;
+export default LayoutLanding;
   
