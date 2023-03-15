@@ -12,193 +12,131 @@
     src: url("https://fonts.animaapp.com/Satoshi-Black") format("opentype");
   }
   
-  .navbar {
+  .header-container {
+    padding: 0px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 93%;
+    height: 96px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  .header-logo-container {
+    display: flex;
+  }
+
+  .header-frame-container {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+  }
+
+  .header-ellipse-1-1 {
+    background-color: #222222;
+    border-radius: 300px;
+    height: 47px;
+    left: 0;
+    top: 0;
+    width: 47px;
+  }
+  
+  .header-ellipse-2-1 {
+    background-color: #F8C100;
+    position: absolute;
+    left: 90px;
+    top: 25px;
+    border-radius: 300px;
+    height: 47px;
+    width: 47px;
+  }
+
+  .header-text-container {
+    color: transparent;
+    font-family: 'Satoshi';
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .header-span1-2 {
+    color: #222222;
+  }
+  
+  .header-span0-2 {
+    color: #F8C100;
+  }
+
+  .header-features-container {
+   display: flex;
+   align-items: center;
+  }
+
+  .header-features {
+    font-size: 30px;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+    margin-right: 64px;
+  }
+  
+  
+  .header-singup-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-left-button-container .ant-btn {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 16px 64px;
-    gap: 128px;
-
-    position: absolute;
-    width: 1440px;
-    height: 96px;
-    left: 0px;
-    top: 0px;
-
+    padding: 16px;
+    gap: 10px;
+    width: 128px;
+    height: 64px;
     background: #FFFFFF;
-    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid #222222;
+    border-radius: 8px;
+    margin-right: 32px;
   }
-  
-  .frame-230 {
-    align-items: center;
-    gap: 4.44vw;
-    width: fit-content;
-  }
-  
-  .home-desktop .frame {
+
+  .ant-btn{
     display: flex;
-    position: relative;
-  }
-  
-  .features {
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    text-align: center;
-    width: fit-content;
-  }
-  
-  .pricing-1 {
-    width: fit-content;
-  }
-  
-  .home-desktop .pricing {
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    text-align: center;
-  }
-  
-  .frame-231 {
-    align-items: flex-start;
-    gap: 2.22vw;
-    width: fit-content;
-  }
-  
-  .button-3 {
-    background-color: var(--white);
-    border: 0.07vw solid;
-    border-color: var(--log-cabin);
-    height: 4.58vw;
-    margin-bottom: -0.07vw;
-    margin-left: -0.07vw;
-    margin-top: -0.07vw;
-    width: 9.03vw;
-  }
-  
-  .home-desktop .button {
-    align-items: center;
-    border-radius: 0.56vw;
-    display: flex;
-    gap: 0.69vw;
+    flex-direction: row;
     justify-content: center;
-    padding: 1.11vw;
-    position: relative;
-  }
-  
-  .sign-up {
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    text-align: center;
-    width: fit-content;
-  }
-  
-  .button-4 {
-    background-color: var(--amber);
-    height: 4.44vw;
-    width: 8.89vw;
-  }
-  
-  .login {
-    letter-spacing: 0;
-    line-height: normal;
-    position: relative;
-    text-align: center;
-    width: fit-content;
-  }
-  
-  .frame-228 {
     align-items: center;
-    flex-direction: column;
-    gap: 0.28vw;
-    width: fit-content;
+    padding: 16px;
+    gap: 10px;
+    width: 128px;
+    height: 64px;
+    background: #F8C100;
+    border-radius: 8px;
   }
-  
-  .demo {
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -0.07vw;
-    position: relative;
+
+  .header-btn-txt {
+    width: 69px;
+    height: 27px;
+
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
     text-align: center;
-    width: fit-content;
+
+    color: #222222;
   }
   
-  .vector-97 {
-    height: 0.07vw;
-    margin-bottom: -0.03vw;
-    margin-left: -0.03vw;
-    margin-right: -0.03vw;
-    min-width: 3.96vw;
-    object-fit: cover;
-    position: relative;
-  }
+
+
+
+
+
   
-  .menu {
-    flex: 1;
-    height: 1.88vw;
-    min-width: 6.67vw;
-    position: relative;
-  }
-  
-  .frame-249-1 {
-    align-items: center;
-    display: flex;
-    gap: 0.56vw;
-    position: relative;
-    width: 19.65vw;
-  }
-  
-  .group-1-1 {
-    height: 2.73vw;
-    min-width: 4.1vw;
-    position: relative;
-  }
-  
-  .ellipse-container-1 {
-    height: 2.71vw;
-    position: relative;
-    width: 4.1vw;
-  }
-  
-  .ellipse-1-1 {
-    background-color: var(--log-cabin);
-    border-radius: 1.37vw;
-    height: 2.71vw;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 2.71vw;
-  }
-  
-  .ellipse-2-1 {
-    background-color: var(--amber);
-    border-radius: 1.37vw;
-    height: 2.71vw;
-    left: 1.39vw;
-    position: absolute;
-    top: 0;
-    width: 2.71vw;
-  }
-  
-  .client-rate-1 {
-    color: 
-  transparent;
-    flex: 1;
-    font-family: var(--font-family-satoshi-black);
-    font-size: 1.94vw;
-    font-weight: 900;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: -0.02vw;
-    position: relative;
-  }
-  
-  .span1-2 {
-    color: var(--amber);
-  }
-  
-  .span0-2 {
-    color: var(--log-cabin);
-  }

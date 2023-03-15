@@ -5,7 +5,7 @@ import LayoutLanding from "./Landing/LayoutLanding";
 const HomePage: React.FC = () => {
   return (
     <div className="main-container">
-     <LayoutHeader/>
+     <LayoutHeader />
      <LayoutLanding />
      <LayoutFooter /> 
     </div>

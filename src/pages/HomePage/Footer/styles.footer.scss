@@ -1,0 +1,21 @@
+//Footer SCSS
+
+.footer-container {
+    display: flex;
+    background: #101010;
+    border-radius: 24px 24px 0px 0px;
+    height: 400px !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-txt {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}

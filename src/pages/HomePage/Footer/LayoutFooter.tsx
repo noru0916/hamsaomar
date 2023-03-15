@@ -1,6 +1,7 @@
 const LayoutFooter: React.FC = () => {
   return (
-    <div>
+    <div className="footer-container">
+        <span className="footer-txt">Copyright @ ClientRate 2023</span>
     </div>
   );
 };
