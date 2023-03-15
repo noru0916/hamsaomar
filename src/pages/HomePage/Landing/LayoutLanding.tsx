@@ -1,7 +1,6 @@
 import {
   Button 
 } from 'antd';
-
 import * as context from  "../../../Common/asset/const";
  
 const LayoutLanding: React.FC = () => {
@@ -16,7 +15,7 @@ const LayoutLanding: React.FC = () => {
             </div>
           </div>
           <div className="landing-stream-right-container">
-            <img src='/img/stream.png'/>
+            <img src='/img/stream.png' style={{width:'100%'}}/>
           </div>
         </div>
         <div className="landing-WhyChooseUS-container">

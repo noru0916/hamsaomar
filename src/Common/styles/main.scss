@@ -2,12 +2,12 @@
 @import "../../pages/HomePage/Header/styles.header.scss";
 @import "../../pages/HomePage/Footer/styles.footer.scss";
 @import "../../pages/HomePage/Landing/styles.landing.scss";
-
+@import "../../Common/styles/mixins/index.scss";
 
 /*Main Container*/
 .main-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: fit-content;
 }
 
