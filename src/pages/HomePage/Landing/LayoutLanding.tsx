@@ -1,16 +1,6 @@
 import {
   Button 
 } from 'antd';
-// import { url } from 'inspector';
-// import Image from 'next/image'
-// //image
-// import streamPic from "../../../../public/img/stream.png"
-// import ClientFirstPic from "../../../../public/img/money-3.png";
-// import ClientSecondPic from "../../../../public/img/message-edit.png";
-// import ClientThirdPic from "../../../../public/img/flash.png";
-// import VectorPic from "../../../../public/img/Vector.png";
-// import StarPic from "../../../../public/img/Star.png";
-// import HamsaPic from "../../../../public/img/hamsa.png";
 
 import * as context from  "../../../Common/asset/const";
  
@@ -122,7 +112,7 @@ const LayoutLanding: React.FC = () => {
             </div>
           </div>
         <div className="landing-money-back-container">
-          <div className="landing-money-back-confirm-container">
+          <div className="landing-money-back-confirm-container" style={{backgroundImage: `url(${"/img/background.png"})`}}>
             <span className="landing-money-back-confirm-title">{context.landingMondayBackTitleTxt}</span>
             <span className="landing-money-back-confirm-text">{context.landingMondayBackDetailTxt}</span>
             <Button><span className="landing-stream-btn-txt">Get Started</span></Button>

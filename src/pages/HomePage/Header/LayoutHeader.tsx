@@ -18,17 +18,17 @@ const LayoutHeader: React.FC = () => {
       </div>
       <div className="header-singup-container">
       <div className="header-features-container">
-        <div className="header-features">Features</div>
-        <div className="header-features">Pricing</div>
-        <div className="header-features">demo</div>
+        <Button><span className="header-features">Features</span> </Button>
+        <Button><span className="header-features">Pricing</span></Button>
+        <Button><span className="header-features">Demo</span></Button>
       </div>
-        <div className='header-left-button-container'>
-          <Button><span className="header-btn-txt">Sign UP</span></Button>
-        </div>
-        <div className='header-button-container'>
-          <Button><span className="header-btn-txt">Login</span></Button>
-        </div>
+      <div className='header-left-button-container'>
+        <Button><span className="header-btn-txt">Sign UP</span></Button>
       </div>
+      <div className='header-button-container'>
+        <Button><span className="header-btn-txt">Login</span></Button>
+      </div>
+    </div>
     </div>
   );
 };
